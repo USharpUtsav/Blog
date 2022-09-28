@@ -1,0 +1,61 @@
+@media screen and (max-width:888px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 73px;
+    }
+    .nav-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-right{
+        display: none;
+    }
+    .home-arti{
+        flex-direction: column;
+    }
+    .imagearticle img{
+        text-align: center;
+        padding: 8px 13px;
+    }
+    .year{
+        top: 20px;
+        left: 60vw;
+        font-size: 10px;
+        display: flex;
+    }
+    .year div{
+        margin: 0;
+        padding: 0 8px;
+
+    }
+    .row{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:1238px){
+    .year{
+        top: 20px;
+        left: 70vw;
+        font-size: 18px;
+        display: flex;
+    }
+    .year div{
+        margin: 0;
+        padding: 0 12px;
+
+    }
+
+}
+
+@media only screen and (min-width: 770px) and (max-width: 890px) {
+    .imagearticle img{
+        text-align: center;
+        padding: 8px 231px;
+    }
+
+}
+
+

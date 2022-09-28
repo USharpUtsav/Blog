@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed&display=swap');
+
+:root{
+    --main-bg-color:green;
+    --font1:'Roboto Condensed', sans-serif;
+    --font2:'Oswald', sans-serif;
+
+}
+
+.center{
+    text-align: center;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width1{
+    max-width: 84vw;
+}
+.max-width12{
+    max-width: 70vw;
+
+}
+
+.max-width2{
+    max-width: 61vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.btn{
+    padding: 2px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.form-input{
+    padding: 2px 4px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0px 12px;
+    font-family: var(--font1);
+}
+
+.margin2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imagearticle img{
+    width: 173px;
+    height: auto;
+}
+
+.formbox input, textarea{
+    width: 55vw;
+    margin:12px 5px ;
+    padding:5px ;
+    border: 2px solid black;
+    border-radius: 12px;
+
+}

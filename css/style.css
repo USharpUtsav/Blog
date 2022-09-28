@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    margin-top: 23px;
+    height: 80px;
+    display: flex;
+    font-family: var(--font1);
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    padding: 11px;
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    background-image: url('../image/11.svg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.17;
+    border-radius: 13px;
+}
+
+.footer{
+    height: 45px;
+    background-color: rgb(240, 204, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.nav-left{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li{
+    list-style: none;
+    margin: 0 17px;
+    font-family:var(--font2);
+    font-size: 23px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.nav-left ul li a:hover{
+    color: green;
+    font-weight: bolder;
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 70px;
+}
+
+.nav-right{
+    font-size: 12px;
+}
+
+.content-left{
+    font-family: var(--font1);
+    display: flex;
+    padding: 45px;
+    /* width: 50%; */
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.content-right {
+    display: flex;
+    /* width: 50%; */
+    align-items: center;
+    justify-content: center;
+}
+.content-right img{
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 311px;
+}
+
+.Homearticles{
+    padding: 19px;
+    /* height: 349px; */
+    /* background-color: red; */
+    margin-top: 25px;
+    position: relative;
+}
+
+.year{
+    position: absolute;
+    width: 203px;
+    height: 200px;
+    right: 0px;
+    top: 50px;
+    /* background-color: yellow; */
+}
+
+.year div{
+    margin: 15px 0px;
+}
+
+.footer a{
+    color: black;
+}
+
+.home-arti{
+    display: flex;
+    margin: 20px;
+}
+
+.home-arti img{
+    width: 209px;
+}
+.articlecontent{
+    align-self: center;
+    padding: 20px;
+}
+.articlecontent a{
+    text-decoration: none;
+    color: black;
+}

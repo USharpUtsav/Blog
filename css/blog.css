@@ -1,0 +1,43 @@
+.postimg{
+    height: 440px;
+    overflow: hidden;
+}
+
+
+.postimg img{
+    width: 100%;
+
+}
+
+.blogcontent h1{
+    text-align: center;
+}
+.blogcontent p{
+    font-size: 23px;
+}
+.row{
+    display: flex;
+}
+.morepost{
+    flex-direction: column;
+    align-items: center;
+
+}
+.metabox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.authorinfo{
+    padding: 5px 11px;
+    font-family: var(--font2);
+    margin: 10px 0;
+}
+
+.social svg:hover{
+    cursor: pointer;
+}
+.social{
+    /* padding: 23px; */
+    align-self: center;
+}

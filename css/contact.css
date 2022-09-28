@@ -1,0 +1,31 @@
+.contactcontent{
+    height: 386px;
+    height: 82vh;
+    display: block;
+    margin-top: 31px;
+    padding: 11px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contactcontent::after{
+    content: "";
+    background-image: url('../image/11.svg');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.17;
+    z-index: -1;
+    border-radius: 13px;
+}
+
+.formbox{
+    margin: 20px 0px;
+    padding: 0px 0px;
+
+}
+
+contactcontent h2{
+    font-family: var(--font1);
+}
